@@ -1,0 +1,24 @@
+# Level 2: busy streets and busy pavements.
+name: Market Day
+tagline: Ice-cream vans, prams, a double-decker of sheep, and Loki.
+width: 20
+time: 60
+nests: 5
+flight: 1.15
+recharge: 18
+hawk: yes
+loki: yes
+skadi: yes
+lanes:
+nests
+river    speed=1.2   duck@0 turtles3@6 canoe@12 turtles2@19
+river    speed=-1.5  log3@0 ring@5 log4@8 raft@15   air=1.2 ^kite@4 ^plane@12 ^kite@19
+river    speed=0.9   turtles3@0 picnic@7 pedalo@13
+verge    items
+sidewalk speed=1.1   stroller@0 wagon@7 bicycle@13
+road     speed=-2.2  scooter@0 icecream@7 milkfloat@15
+road     speed=1.6   sofa@0 bus@8 hatchback@17   air=-0.9 ^umbrella@3 ^geese@13
+road     speed=-1.2  icecream@0 tractor@12
+sidewalk speed=-0.9  unicycle@0 bicycle@6 stroller@12
+road     speed=2.6   hatchback@0 camper@9 hatchback@17
+start

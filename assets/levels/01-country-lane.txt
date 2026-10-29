@@ -1,0 +1,22 @@
+# Level 1: a bit of everything, gently.
+name: Country Lane
+tagline: Why did the Silkie cross the road? To lay an egg in every nest box.
+width: 20
+time: 60
+nests: 4
+flight: 1.23
+recharge: 16
+hawk: yes
+loki: yes
+skadi: yes
+lanes:
+nests
+river    speed=-1.0  log4@0 ring@6 duck@9 log3@14 canoe@20
+river    speed=1.2   raft@0 log3@5 lily2@11 pedalo@15   air=0.8 ^plane@3 ^geese@14
+verge    items
+sidewalk speed=-0.8  stroller@0 bicycle@6 wagon@12
+road     speed=-1.6  hatchback@0 milkfloat@7 tractor@14
+road     speed=1.3   camper@0 tandem@9 bus@15   air=-0.7 ^umbrella@4 ^kite@14
+sidewalk speed=0.9   wagon@0 bicycle@7 unicycle@13
+verge    items
+start

@@ -1,0 +1,26 @@
+# Level 5: bunting you cannot fly through, balloons, a lawnmower race.
+name: Village Fete
+tagline: Bunting, balloons, a lawnmower race and a clown who will not stop.
+width: 20
+time: 65
+nests: 5
+flight: 1.23
+recharge: 18
+hawk: yes
+loki: yes
+skadi: yes
+lanes:
+nests
+river    speed=-1.2  duck@0 pedalo@7 flamingo@14
+river    speed=1.6   log3@0 picnic@8 raft@15   air=0.7 ^balloon@0 ^balloon@14
+verge    items bunting
+sidewalk speed=0.9   wagon@0 wagon@6 stroller@12 unicycle@17
+road     speed=-2.8  mower@0 mower@4 mower@12 mower@16
+road     speed=2.0   sofa@0 icecream@8 sofa@15   air=-1.6 ^umbrella@2 ^geese@11
+verge    items fox
+road     speed=-1.4  tractor@0 scooter@7 tractor@13   air=-0.9 ^balloon@5
+road     speed=3.0   mower@0 bathtub@7 mower@14
+sidewalk speed=-1.1  unicycle@0 bicycle@5 wagon@11 stroller@16
+verge    items bunting
+road     speed=-2.2  icecream@0 bus@10
+start

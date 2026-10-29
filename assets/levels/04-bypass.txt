@@ -1,0 +1,26 @@
+# Level 4: fast traffic, a railway, things in the sky.
+name: The Bypass
+tagline: Stretch limousines, bathtub racers, a blimp and the Custard Express.
+width: 20
+time: 60
+nests: 5
+flight: 1.08
+recharge: 20
+hawk: yes
+loki: yes
+skadi: yes
+lanes:
+nests
+river    speed=1.4   log4@0 log3@8 duck@15
+river    speed=-1.1  turtles3@0 divers3@7 canoe@14  dive=7
+verge    items
+rail     speed=16 train=4 every=12 warn=2.5
+verge
+sidewalk speed=-1.2  bicycle@0 bicycle@5 wagon@11 stroller@16
+road     speed=-3.0  bathtub@0 bathtub@6 hatchback@14   air=2.2 ^drone@0 ^drone@12
+road     speed=2.2   limo6@0 bus@13   air=-0.6 ^blimp@4
+road     speed=-1.6  limo4@0 sofa@10 camper@16
+sidewalk speed=1.0   tandem@0 unicycle@8 stroller@13
+road     speed=3.4   bathtub@0 hatchback@10   air=-2.5 ^drone@6 ^plane@15
+road     speed=-2.0  icecream@0 limo5@9
+start

@@ -1,0 +1,26 @@
+# Level 3: mostly water, a crosswind, and a fox on the towpath.
+name: The Millrace
+tagline: Diving turtles, a scarecrow on a raft and a fox on the towpath.
+width: 20
+time: 65
+nests: 5
+flight: 1.08
+recharge: 18
+wind: 0.6
+hawk: yes
+loki: yes
+skadi: yes
+lanes:
+nests
+river    speed=-1.6  log3@0 flamingo@6 raft@11 flamingo@18
+river    speed=1.1   divers3@0 divers2@7 divers3@13  dive=6
+river    speed=-0.8  lily3@0 lily2@6 lily3@12 lily2@19   air=-1.4 ^kite@2 ^geese@12
+river    speed=2.0   log4@0 canoe@11
+verge    items fox
+river    speed=-1.3  picnic@0 ring@6 pedalo@9 picnic@15
+river    speed=0.9   divers3@0 log2@8 divers3@14  dive=8   air=1.8 ^plane@4 ^plane@15
+river    speed=-1.8  flamingo@0 ring@5 log3@9
+verge    items
+sidewalk speed=1.0   bicycle@0 tandem@8 stroller@15
+road     speed=1.5   tractor@0 milkfloat@9 tractor@16
+start
