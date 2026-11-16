@@ -264,3 +264,11 @@ cargo run --release --example render_level -- 4 48 level.png
 
 The pictures in this README were made by `silkie-sprint snapshot`, which
 composites the same sprites and scenery the terminal is sent.
+
+## Licence
+
+Copyright 2026 Adam DePrince. Licensed under the
+[GNU General Public License, version 3 only](LICENSE). The Lilita One
+typeface in `assets/fonts/` is under the SIL Open Font License 1.1
+([OFL.txt](assets/fonts/OFL.txt)); see
+[assets/PROVENANCE.md](assets/PROVENANCE.md).

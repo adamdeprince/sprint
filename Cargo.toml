@@ -2,6 +2,7 @@
 name = "silkie-sprint"
 version = "0.1.0"
 edition = "2024"
+license = "GPL-3.0-only"
 rust-version = "1.85"
 description = "A lane-crossing arcade game about a Silkie hen who can (briefly) fly, for kitty and Silkie terminals"
 readme = "README.md"
